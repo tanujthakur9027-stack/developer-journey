@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developer Journey</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+<div id="loader">Entering Experience...</div>
+<div id="progress"></div>
+
+<section class="section hero">
+    <h1 class="title">👨‍💻 A Developer’s Journey</h1>
+    <p id="typing"></p>
+</section>
+
+<section class="section learning">
+    <h1>Chapter 1</h1>
+    <p class="text">It started with a simple line of code...</p>
+    <p class="text">And a dream to build something bigger.</p>
+</section>
+
+<section class="section struggle">
+    <h1>Chapter 2</h1>
+    <p class="text">Errors everywhere… frustration rising.</p>
+    <p class="text">But quitting was never an option.</p>
+    <button onclick="fixBug()">Fix Bug</button>
+    <p id="bug"></p>
+</section>
+
+<section class="section growth">
+    <h1>Chapter 3</h1>
+    <p class="text">From confusion → clarity</p>
+    <p class="text">From tutorials → real projects</p>
+</section>
+
+<section class="section reality">
+    <h1>Chapter 4</h1>
+    <p class="text">Deadlines hit hard...</p>
+    <p class="text">Coffee becomes survival ☕</p>
+    <button onclick="coffee()">Drink Coffee</button>
+    <p id="coffee">Cups: 0</p>
+</section>
+
+<section class="section success">
+    <h1>🎉 You Made It</h1>
+    <p class="text">You were never stuck...</p>
+    <p class="text">You were just learning.</p>
+    <p class="text">And now — you are a developer 🚀</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
