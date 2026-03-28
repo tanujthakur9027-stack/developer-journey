@@ -5,7 +5,7 @@ An interactive storytelling website that represents the journey of a developer �
 ---
 
 ## 🚀 Live Demo
-🔗 https://developer-journey-tanuj.netlify.app/
+🔗 https://tanujthakur9027-stack.github.io/developer-journey/
 
 ---
 
